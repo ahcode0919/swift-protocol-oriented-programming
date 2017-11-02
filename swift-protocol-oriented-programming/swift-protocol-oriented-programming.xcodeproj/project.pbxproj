@@ -20,6 +20,9 @@
 		408344F21FAAE16700103F84 /* ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344F11FAAE16700103F84 /* ExtensionsTests.swift */; };
 		408344F41FAAE17D00103F84 /* ProtocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344F31FAAE17D00103F84 /* ProtocolsTests.swift */; };
 		408344F81FAAE41400103F84 /* ProtocolExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344F71FAAE41400103F84 /* ProtocolExtensionsTests.swift */; };
+		408344FA1FAAEA3E00103F84 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344F91FAAEA3E00103F84 /* Singleton.swift */; };
+		408344FB1FAAEA3E00103F84 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344F91FAAEA3E00103F84 /* Singleton.swift */; };
+		408345001FAAEAB100103F84 /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344FF1FAAEAB100103F84 /* SingletonTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +50,8 @@
 		408344F11FAAE16700103F84 /* ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsTests.swift; sourceTree = "<group>"; };
 		408344F31FAAE17D00103F84 /* ProtocolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsTests.swift; sourceTree = "<group>"; };
 		408344F71FAAE41400103F84 /* ProtocolExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtensionsTests.swift; sourceTree = "<group>"; };
+		408344F91FAAEA3E00103F84 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		408344FF1FAAEAB100103F84 /* SingletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				408344E01FAAD8DE00103F84 /* Delegate.swift */,
+				408344F91FAAEA3E00103F84 /* Singleton.swift */,
 			);
 			path = "Design-Patterns";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				408344E41FAADB0300103F84 /* DelegateTests.swift */,
+				408344FF1FAAEAB100103F84 /* SingletonTests.swift */,
 			);
 			path = "Design-Patterns";
 			sourceTree = "<group>";
@@ -240,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				408344E11FAAD8DE00103F84 /* Delegate.swift in Sources */,
+				408344FA1FAAEA3E00103F84 /* Singleton.swift in Sources */,
 				408344EE1FAAE14800103F84 /* ProtocolExtensions.swift in Sources */,
 				408344E81FAAE12D00103F84 /* Extensions.swift in Sources */,
 				408344C91FAAD6F000103F84 /* main.swift in Sources */,
@@ -252,11 +260,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				408344E51FAADB0300103F84 /* DelegateTests.swift in Sources */,
+				408344FB1FAAEA3E00103F84 /* Singleton.swift in Sources */,
 				408344F41FAAE17D00103F84 /* ProtocolsTests.swift in Sources */,
 				408344F21FAAE16700103F84 /* ExtensionsTests.swift in Sources */,
 				408344EF1FAAE14800103F84 /* ProtocolExtensions.swift in Sources */,
 				408344E91FAAE12D00103F84 /* Extensions.swift in Sources */,
 				408344F81FAAE41400103F84 /* ProtocolExtensionsTests.swift in Sources */,
+				408345001FAAEAB100103F84 /* SingletonTests.swift in Sources */,
 				408344E21FAAD8DE00103F84 /* Delegate.swift in Sources */,
 				408344EC1FAAE13C00103F84 /* Protocols.swift in Sources */,
 			);
