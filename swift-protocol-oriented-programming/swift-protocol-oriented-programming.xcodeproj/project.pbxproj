@@ -11,6 +11,15 @@
 		408344E11FAAD8DE00103F84 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344E01FAAD8DE00103F84 /* Delegate.swift */; };
 		408344E21FAAD8DE00103F84 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344E01FAAD8DE00103F84 /* Delegate.swift */; };
 		408344E51FAADB0300103F84 /* DelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344E41FAADB0300103F84 /* DelegateTests.swift */; };
+		408344E81FAAE12D00103F84 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344E71FAAE12D00103F84 /* Extensions.swift */; };
+		408344E91FAAE12D00103F84 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344E71FAAE12D00103F84 /* Extensions.swift */; };
+		408344EB1FAAE13C00103F84 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344EA1FAAE13C00103F84 /* Protocols.swift */; };
+		408344EC1FAAE13C00103F84 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344EA1FAAE13C00103F84 /* Protocols.swift */; };
+		408344EE1FAAE14800103F84 /* ProtocolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344ED1FAAE14800103F84 /* ProtocolExtensions.swift */; };
+		408344EF1FAAE14800103F84 /* ProtocolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344ED1FAAE14800103F84 /* ProtocolExtensions.swift */; };
+		408344F21FAAE16700103F84 /* ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344F11FAAE16700103F84 /* ExtensionsTests.swift */; };
+		408344F41FAAE17D00103F84 /* ProtocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344F31FAAE17D00103F84 /* ProtocolsTests.swift */; };
+		408344F81FAAE41400103F84 /* ProtocolExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408344F71FAAE41400103F84 /* ProtocolExtensionsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +41,12 @@
 		408344D71FAAD73B00103F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		408344E01FAAD8DE00103F84 /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
 		408344E41FAADB0300103F84 /* DelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateTests.swift; sourceTree = "<group>"; };
+		408344E71FAAE12D00103F84 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		408344EA1FAAE13C00103F84 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		408344ED1FAAE14800103F84 /* ProtocolExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtensions.swift; sourceTree = "<group>"; };
+		408344F11FAAE16700103F84 /* ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsTests.swift; sourceTree = "<group>"; };
+		408344F31FAAE17D00103F84 /* ProtocolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsTests.swift; sourceTree = "<group>"; };
+		408344F71FAAE41400103F84 /* ProtocolExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtensionsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				408344DC1FAAD75A00103F84 /* Design-Patterns */,
+				408344E61FAAE11700103F84 /* Language-Features */,
 				408344DB1FAAD75000103F84 /* Models */,
 				408344C81FAAD6F000103F84 /* main.swift */,
 			);
@@ -84,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				408344E31FAADAE700103F84 /* Design-Patterns */,
+				408344F01FAAE14E00103F84 /* Language-Features */,
 				408344D71FAAD73B00103F84 /* Info.plist */,
 			);
 			path = "unit-tests";
@@ -110,6 +127,26 @@
 				408344E41FAADB0300103F84 /* DelegateTests.swift */,
 			);
 			path = "Design-Patterns";
+			sourceTree = "<group>";
+		};
+		408344E61FAAE11700103F84 /* Language-Features */ = {
+			isa = PBXGroup;
+			children = (
+				408344E71FAAE12D00103F84 /* Extensions.swift */,
+				408344EA1FAAE13C00103F84 /* Protocols.swift */,
+				408344ED1FAAE14800103F84 /* ProtocolExtensions.swift */,
+			);
+			path = "Language-Features";
+			sourceTree = "<group>";
+		};
+		408344F01FAAE14E00103F84 /* Language-Features */ = {
+			isa = PBXGroup;
+			children = (
+				408344F11FAAE16700103F84 /* ExtensionsTests.swift */,
+				408344F31FAAE17D00103F84 /* ProtocolsTests.swift */,
+				408344F71FAAE41400103F84 /* ProtocolExtensionsTests.swift */,
+			);
+			path = "Language-Features";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +240,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				408344E11FAAD8DE00103F84 /* Delegate.swift in Sources */,
+				408344EE1FAAE14800103F84 /* ProtocolExtensions.swift in Sources */,
+				408344E81FAAE12D00103F84 /* Extensions.swift in Sources */,
 				408344C91FAAD6F000103F84 /* main.swift in Sources */,
+				408344EB1FAAE13C00103F84 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +252,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				408344E51FAADB0300103F84 /* DelegateTests.swift in Sources */,
+				408344F41FAAE17D00103F84 /* ProtocolsTests.swift in Sources */,
+				408344F21FAAE16700103F84 /* ExtensionsTests.swift in Sources */,
+				408344EF1FAAE14800103F84 /* ProtocolExtensions.swift in Sources */,
+				408344E91FAAE12D00103F84 /* Extensions.swift in Sources */,
+				408344F81FAAE41400103F84 /* ProtocolExtensionsTests.swift in Sources */,
 				408344E21FAAD8DE00103F84 /* Delegate.swift in Sources */,
+				408344EC1FAAE13C00103F84 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
