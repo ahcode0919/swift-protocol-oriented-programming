@@ -1,0 +1,8 @@
+before_script:
+  - rvm get head
+  # - pod repo update
+  # - ( cd swift-protocol-oriented-programming && pod install )
+  - gem install xcpretty
+language: objective-c                   #Used for Swift or Objective-c
+osx_image: xcode9
+script: xcodebuild -project swift-protocol-oriented-programming/swift-protocol-oriented-programming.xcodeproj -scheme unit-tests test | xcpretty
