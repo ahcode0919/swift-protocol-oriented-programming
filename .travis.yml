@@ -5,4 +5,4 @@ before_script:
   - gem install xcpretty
 language: objective-c                   #Used for Swift or Objective-c
 osx_image: xcode9
-script: xcodebuild -project swift-protocol-oriented-programming/swift-protocol-oriented-programming.xcodeproj -scheme unit-tests test | xcpretty
+script: xcodebuild -project swift-protocol-oriented-programming/swift-protocol-oriented-programming.xcodeproj -scheme unit-tests CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO test | xcpretty
