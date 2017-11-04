@@ -24,13 +24,13 @@ class MyClassNameDelegateTests: XCTestCase {
 class DelegateTests: XCTestCase {
 
     func testDelegateExample() {
-        var delegate = MyClassNameDelegate()
-        let delegateExample = DelegateExample(classNameDelegate: delegate)
+        let delegate = MyClassNameDelegate()
+        let _ = DelegateExample(classNameDelegate: delegate)
         XCTAssertEqual(delegate.className, "")
     }
     
     func testLogClassNameDelegateExample() {
-        var delegate = MyClassNameDelegate()
+        let delegate = MyClassNameDelegate()
         let delegateExample = DelegateExample(classNameDelegate: delegate)
         delegateExample.logClassName()
         XCTAssertEqual(delegateExample.classNameDelegate.className, "DelegateExample")
