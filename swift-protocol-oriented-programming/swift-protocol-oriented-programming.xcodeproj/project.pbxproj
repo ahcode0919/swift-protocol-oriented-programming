@@ -126,6 +126,8 @@
 		408344DC1FAAD75A00103F84 /* Design-Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				40AAB7221FAD927E00C87F43 /* Creational */,
+				40AAB7231FAD928700C87F43 /* Structural */,
 				40AAB71D1FAD7ACC00C87F43 /* Builder.swift */,
 				408344E01FAAD8DE00103F84 /* Delegate.swift */,
 				408344F91FAAEA3E00103F84 /* Singleton.swift */,
@@ -136,6 +138,8 @@
 		408344E31FAADAE700103F84 /* Design-Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				40AAB7241FAD929400C87F43 /* Creational */,
+				40AAB7251FAD929A00C87F43 /* Structural */,
 				40AAB7201FAD7B3800C87F43 /* BuilderTests.swift */,
 				408344E41FAADB0300103F84 /* DelegateTests.swift */,
 				408344FF1FAAEAB100103F84 /* SingletonTests.swift */,
@@ -161,6 +165,34 @@
 				408344F71FAAE41400103F84 /* ProtocolExtensionsTests.swift */,
 			);
 			path = "Language-Features";
+			sourceTree = "<group>";
+		};
+		40AAB7221FAD927E00C87F43 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		40AAB7231FAD928700C87F43 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
+		40AAB7241FAD929400C87F43 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		40AAB7251FAD929A00C87F43 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Structural;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
